@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+.header { 
+  margin  :auto; 
+  width:400px; 
+  height:150px;
+  border:10px grey; 
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+.img {
+  float:left; 
+  width: 150px; 
+  height: 150px;
+  padding: 20px;
+  margin:20px;
+}
+.card {
+   background-color: white;
+   padding: 40px;
+   margin-top: 20px;   
+} 
+.tops {
+   background-color: white;
+   padding: 40px;
+   margin-top: 20px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn{   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body> 
+<div class="tops" style="background-color: skyblue;"> 
+  <div class="header"  style="background-color: white;"><h2>NEWS BLOG</h2>
+    <P>WORLDWIDE NEWS</P></div>
+</div>  
+<div>
+  <h2> SELECT CATEGORY</h2><br>
+  <select name="news" id="n1" style="font-size: 15px;" >
+      <option value="all">All</option>
+     <option value="Natonal" >National</option>
+     <option value="International">International</option>
+     <option value="Entertainment">Entertainment</option>
+  </select>
+  <h2 style="text-align:center;" >ALL NEWS</h2>
+  <H2 style="text-align:right;" >SUBSCRIBE</H2>
+  <button style="float: right;" >Subscribe</button> 
+  <input type="subs"
+  placeholder="email address" style="float: right;" /></div>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" style="background-color: thistle">  
+      <img src="https://lh3.googleusercontent.com/PBDNSsxW946HldyhAvxwi3euots9szSbUnlvK3TPoEU92hh2njl3i3F_gTHue6e2ev3dpVaZIYDaF4kSBzRDWJB5lM_tRjMp0kwAKOwtcqfdsg=w960-rj-l80-nu-e365" style="float:left;height: 200px;margin: 10px;">
+      <h2>BTS' JUNGKOOK and CALVIN KLEIN take over Twitter as brand drops Teaser</h2>
+      <h5>Entertainment News, Mar 27, 2023</h5>
+      <p>On March 27, the U.S. fashion house took to their branded social media accounts to share a short 'coming soon'-style teaser of Jungkook's shoot with the brand. While most of the BTS member's identity is kept a secret, telltale signs like ...</p>
+      <button style="background-color: lightcoral;"><a href="ent.html">Continue Reading</a></button>
+    </div>
+    <div class="card" style="background-color: thistle">  
+      <img src="https://www.hindustantimes.com/ht-img/img/2023/03/27/550x309/Collage_Maker-27-Mar-2023-05-07-PM-6656_1679916807621_1679916827476_1679916827476.jpg" style="float:left;height: 200px;margin: 10px;">
+      <h2>‘Save Democracy’ placards, papers fly. No end to Lok Sabha chaos</h2>
+      <h5>National News, Mar 27, 2023</h5>
+      <p> Outside of Parliament, lawmakers from 18 opposition parties came together to voice their concerns, dressed in black and waving posters that warned of the looming threat to India's democratic values.
+        Both the Lok Sabha and the Rajya Sabha were thrown into disarray on Monday as Opposition MPs protested by ...</p>
+      <button style="background-color: lightcoral"><a href="nt.html">Continue Reading</a></button>
+    </div> 
+    <div class="card" style="background-color: thistle">  
+      <img src="https://cdn.wionews.com/sites/default/files/styles/story_page/public/2023/03/27/341370-russias-attack-on-ukraine.png?imwidth=1080" style="float:left;height: 200px;margin: 10px;">
+      <h2>Two killed, 25 injured in Sloviansk attacks: Ukraine authorities</h2>
+      <h5>International News, Mar 27, 2023</h5>
+      <p>Russian shelling of the eastern Ukraine town of Sloviansk on Monday killed at least two people and wounded more than two dozen others, authorities said.
+        "As of 13:00, there are two dead and...</p>
+      <button style="background-color: lightcoral"><a href="int.html">Continue Reading</a></button>
+    </div>
+  </div>
+</body>
+</html>
+
+
